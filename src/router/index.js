@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import Privacy from "../views/Privacy.vue";
 
 Vue.use(VueRouter);
 
@@ -17,16 +18,17 @@ const routes = [
       import("../views/About.vue")
   },
   {
-    path: "privacy",
+    path: "/privacy",
     name: "Privacy",
-    component: () =>{
-      import("../views/Privacy.vue")
-    }
+    component: Privacy,
   }
 ];
 
 const router = new VueRouter({
-  routes
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  },
+routes: routes,
 });
 
 export default router;
