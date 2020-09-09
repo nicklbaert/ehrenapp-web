@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <h1 id="heading">Home</h1>
+  <div class="privacy">
+    <h1 id="heading">Privacy</h1>
 
   </div>
 </template>
@@ -8,14 +8,21 @@
 <script>
 
 export default {
-  name: "Home",
+  name: "Privacy",
   components: {
+  },
+  data() {
+    return {
+    };
+  },
+  methods: {
+
   }
 };
 </script>
 
 <style scoped>
-.about {
+.privacy {
   height: 100%;
   width: 100%;
 }
