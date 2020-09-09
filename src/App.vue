@@ -65,32 +65,20 @@ export default {
   padding: 0;
 }
 
-/*@font-face {
-  font-family: "cera-pro";
-  src: url("./assets/fonts/cera-light.otf");
+@font-face {
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-Light.otf");
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "cera-pro";
-  src: url("./assets/fonts/cera-medium.otf");
+  font-family: "Gilroy";
+  src: url("./assets/fonts/Gilroy-ExtraBold.otf");
   font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: "cera-pro";
-  src: url("./assets/fonts/cera-bold.otf");
-  font-style: normal;
-  font-weight: 700;
+  font-weight: 800;
 }
 
-@font-face {
-  font-family: "cera-pro";
-  src: url("./assets/fonts/cera-black.otf");
-  font-style: normal;
-  font-weight: 900;
-}*/
 body{
   background-color: #21262D;
 }
